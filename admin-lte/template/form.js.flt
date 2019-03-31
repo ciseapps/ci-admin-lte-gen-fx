@@ -1,0 +1,31 @@
+(function () {
+
+    const common = new Common();
+    common.setTitle("${title}");
+    // declare dom
+    let uiForm = $("#fm-${titleForId}");
+    let uiBtnCancel = $("#btn-cancel-form");
+    // define from *-content.js
+    let param = common.getCookie("module.${titleForSession}.update");
+
+    initialize();
+
+    function initialize() {
+        let url = param === undefined ? common.baseURL("${titleForLink}/create") : common.baseURL("${titleForLink}/update");
+        uiForm.initForm({
+            url: url,
+            param: param,
+            directUrl: "${titleForLink}",
+            beforeSubmit: function (form, options) {
+				if (param !== undefined) {
+                    form.push({name: '${pk}', value: param.${pk}});
+                }
+                return true; // MANDATORY!
+            }
+        });
+        uiBtnCancel.click(function () {
+            common.direct("${titleForLink}");
+        });
+    }
+
+})();

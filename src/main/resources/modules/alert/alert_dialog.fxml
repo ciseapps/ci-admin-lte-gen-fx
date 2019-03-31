@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<fx:root prefHeight="200.0" prefWidth="300.0" style="-fx-background-color: red;" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <children>
+            <VBox prefHeight="200.0" spacing="10.0">
+               <children>
+                  <Button fx:id="btnStandard" mnemonicParsing="false" text="Standard" />
+                  <Button fx:id="btnWarning" mnemonicParsing="false" text="Warning" />
+                  <Button fx:id="btnError" mnemonicParsing="false" text="Error" />
+                  <Button fx:id="btnConfirm" mnemonicParsing="false" text="Confirm" />
+                  <Button fx:id="btnConfirmCustom" mnemonicParsing="false" text="Confirm Customs Icons" />
+                  <Button fx:id="btnForm" mnemonicParsing="false" text="Form" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</fx:root>

@@ -1,0 +1,4 @@
+rootProject.name = 'base-generator'
+include 'admin-lte-v2'
+include 'admin-lte'
+
