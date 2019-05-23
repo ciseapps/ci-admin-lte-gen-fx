@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da164bfe-6a93-48ca-bd48-c7dde4e078e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar/commons/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar/commons/NameUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar/generator/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar/generator/GeneratorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar/models/DBTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar/models/DBTableDesc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar/models/FileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-admin-springmvc/src/test/java/org/cise/generator/adminstar/FileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-admin-springmvc/template/content.html.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-admin-springmvc/template/controller.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-admin-springmvc/template/form.html.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-admin-springmvc/template/model.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-admin-springmvc/template/repository.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-admin-springmvc/template/service.impl.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-admin-springmvc/template/service.java.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-lte/src/test/java/org/cise/generator/adminlte/FileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-lte/src/test/java/org/cise/generator/adminlte/FileTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/admin-lte/.gradle/" />
+    <ignored path="$PROJECT_DIR$/admin-lte/build/" />
+    <ignored path="$PROJECT_DIR$/admin-lte/out/" />
+    <ignored path="$PROJECT_DIR$/admin-lte-v2/.gradle/" />
+    <ignored path="$PROJECT_DIR$/admin-lte-v2/build/" />
+    <ignored path="$PROJECT_DIR$/star-admin-springmvc/.gradle/" />
+    <ignored path="$PROJECT_DIR$/star-admin-springmvc/build/" />
+    <ignored path="$PROJECT_DIR$/star-admin-springmvc/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/star-admin-springmvc">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/star-admin-springmvc/src/test/java/org/cise/generator/adminstar/FileTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="26" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/star-admin-springmvc/template/model.java.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar/generator/GeneratorImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="103" column="48" lean-forward="true" selection-start-line="103" selection-start-column="48" selection-end-line="103" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar/models/DBTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+              <folding>
+                <element signature="e#2530#2531#0" expanded="true" />
+                <element signature="e#2566#2567#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar/models/DBTableDesc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="96" column="40" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="40" />
+              <folding>
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#509#510#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#617#618#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="method#setFieldNameHeader#0;class#DBTableDesc#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>structure</find>
+      <find>baseTemplate</find>
+      <find>tmpModel</find>
+      <find>dbTable</find>
+      <find>controllerFileName</find>
+      <find>type</find>
+      <find>viewTableModel</find>
+      <find>listTableDesc</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/star-admin-springmvc/build.gradle" />
+        <option value="$PROJECT_DIR$/admin-lte/src/test/java/org/cise/generator/adminlte/FileTest.java" />
+        <option value="$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar/generator/Generator.java" />
+        <option value="$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar/models/FileManager.java" />
+        <option value="$PROJECT_DIR$/star-admin-springmvc/template/repository.java.ftl" />
+        <option value="$PROJECT_DIR$/star-admin-springmvc/template/service.java.ftl" />
+        <option value="$PROJECT_DIR$/star-admin-springmvc/template/service.impl.java.ftl" />
+        <option value="$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar/models/DBTable.java" />
+        <option value="$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar/commons/NameUtils.java" />
+        <option value="$PROJECT_DIR$/star-admin-springmvc/template/content.html.ftl" />
+        <option value="$PROJECT_DIR$/star-admin-springmvc/template/form.html.ftl" />
+        <option value="$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar/generator/GeneratorImpl.java" />
+        <option value="$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar/commons/FileUtils.java" />
+        <option value="$PROJECT_DIR$/star-admin-springmvc/template/controller.java.ftl" />
+        <option value="$PROJECT_DIR$/star-admin-springmvc/template/model.java.ftl" />
+        <option value="$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar/models/DBTableDesc.java" />
+        <option value="$PROJECT_DIR$/star-admin-springmvc/src/test/java/org/cise/generator/adminstar/FileTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/gradle.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ci-admin-lte-gen-fx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ci-admin-lte-gen-fx" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ci-admin-lte-gen-fx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ci-admin-lte-gen-fx" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="admin-lte" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ci-admin-lte-gen-fx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ci-admin-lte-gen-fx" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="admin-lte" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ci-admin-lte-gen-fx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ci-admin-lte-gen-fx" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="admin-lte" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ci-admin-lte-gen-fx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ci-admin-lte-gen-fx" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="admin-lte" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ci-admin-lte-gen-fx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ci-admin-lte-gen-fx" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="admin-lte" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ci-admin-lte-gen-fx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ci-admin-lte-gen-fx" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="star-admin-springmvc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ci-admin-lte-gen-fx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ci-admin-lte-gen-fx" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="star-admin-springmvc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ci-admin-lte-gen-fx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ci-admin-lte-gen-fx" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="star-admin-springmvc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ci-admin-lte-gen-fx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ci-admin-lte-gen-fx" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="star-admin-springmvc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ci-admin-lte-gen-fx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ci-admin-lte-gen-fx" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="star-admin-springmvc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="adminstar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ci-admin-lte-gen-fx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ci-admin-lte-gen-fx" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="star-admin-springmvc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ci-admin-lte-gen-fx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ci-admin-lte-gen-fx" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="star-admin-springmvc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ci-admin-lte-gen-fx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ci-admin-lte-gen-fx" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="star-admin-springmvc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="adminstar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ci-admin-lte-gen-fx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ci-admin-lte-gen-fx" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="star-admin-springmvc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar" />
+      <recent name="$PROJECT_DIR$/star-admin-springmvc/template" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="FileTest.generatorFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="star-admin-springmvc.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cise.generator.adminstar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cise.generator.adminstar" />
+      <option name="MAIN_CLASS_NAME" value="org.cise.generator.adminstar.FileTest" />
+      <option name="METHOD_NAME" value="generatorFileTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FileTest.generatorFileTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da164bfe-6a93-48ca-bd48-c7dde4e078e9" name="Default Changelist" comment="" />
+      <created>1558552111284</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558552111284</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="FileTest_generatorFileTest - 2019.05.23 at 06h 13m 03s.xml">
+      <configuration name="FileTest.generatorFileTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FileTest_generatorFileTest - 2019.05.23 at 06h 24m 02s.xml">
+      <configuration name="FileTest.generatorFileTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FileTest_generatorFileTest - 2019.05.23 at 06h 24m 47s.xml">
+      <configuration name="FileTest.generatorFileTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FileTest_generatorFileTest - 2019.05.23 at 06h 25m 02s.xml">
+      <configuration name="FileTest.generatorFileTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FileTest_generatorFileTest - 2019.05.23 at 06h 27m 48s.xml">
+      <configuration name="FileTest.generatorFileTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FileTest_generatorFileTest - 2019.05.23 at 06h 28m 41s.xml">
+      <configuration name="FileTest.generatorFileTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FileTest_generatorFileTest - 2019.05.23 at 06h 29m 05s.xml">
+      <configuration name="FileTest.generatorFileTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FileTest_generatorFileTest - 2019.05.23 at 06h 29m 19s.xml">
+      <configuration name="FileTest.generatorFileTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FileTest_generatorFileTest - 2019.05.23 at 06h 30m 33s.xml">
+      <configuration name="FileTest.generatorFileTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FileTest_generatorFileTest - 2019.05.23 at 06h 31m 28s.xml">
+      <configuration name="FileTest.generatorFileTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30936995" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" weight="0.32876712" />
+      <window_info anchor="bottom" id="Messages" weight="0.40958905" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3479452" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DaggetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-lte/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="16" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/star-admin-springmvc/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-lte/src/test/java/org/cise/generator/adminlte/FileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar/generator/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar/models/FileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3472#3473#0" expanded="true" />
+            <element signature="e#3503#3504#0" expanded="true" />
+            <element signature="e#3986#3987#0" expanded="true" />
+            <element signature="e#4021#4022#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-lte/src/main/java/org/cise/generator/adminlte/generator/GeneratorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-lte/template/controller.php.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/star-admin-springmvc/template/repository.java.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="59" lean-forward="true" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/star-admin-springmvc/template/service.java.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/star-admin-springmvc/template/service.impl.java.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-lte/template/content.js.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="44" column="24" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="44" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-lte/template/view_content.php.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar/commons/NameUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="120" column="48" selection-start-line="120" selection-start-column="48" selection-end-line="120" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cise/generator/applications/main/controllers/NavigationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="11" column="78" lean-forward="true" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cise/generator/applications/main/controllers/MainControllerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/star-admin-springmvc/template/form.html.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/star-admin-springmvc/template/content.html.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar/commons/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/star-admin-springmvc/template/controller.java.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar/generator/GeneratorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="103" column="48" lean-forward="true" selection-start-line="103" selection-start-column="48" selection-end-line="103" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/star-admin-springmvc/template/model.java.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar/models/DBTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="e#2530#2531#0" expanded="true" />
+            <element signature="e#2566#2567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/star-admin-springmvc/src/main/java/org/cise/generator/adminstar/models/DBTableDesc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="96" column="40" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="40" />
+          <folding>
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="method#setFieldNameHeader#0;class#DBTableDesc#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/star-admin-springmvc/src/test/java/org/cise/generator/adminstar/FileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="26" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>test|star-admin-springmvc</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30114943" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

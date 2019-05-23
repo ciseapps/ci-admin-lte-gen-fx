@@ -25,7 +25,7 @@ import static jdk.nashorn.internal.objects.NativeDebug.map;
 public class FileTest {
 
     String dbUsername = "root";
-    String dbPassword = "";
+    String dbPassword = "root";
     String database = "web_base_codeigniter";
     String baseProject = "C:\\xampp\\htdocs\\web_base_codeigniter";
     String baseTemplate = "C:\\Users\\demOn\\Downloads\\Documents\\TestGenerator\\template";
