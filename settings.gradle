@@ -1,4 +1,5 @@
 rootProject.name = 'base-generator'
-include 'admin-lte-v2'
-include 'admin-lte'
+include 'ciadmin'
+include 'spring-mvc'
+include 'spring-api'
 
